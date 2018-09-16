@@ -1,5 +1,5 @@
 {
-  "name": "ts-extract",
+  "name": "extract-ts",
   "version": "1.0.0",
   "description": "A Typesafe extract / get method",
   "main": "dist/index.js",

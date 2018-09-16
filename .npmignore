@@ -1,6 +1,8 @@
 lib/
 *.yml
 tsconfig.json
-tslint.json.editorconfig
+tslint.json
+.editorconfig
 .gitignore
 docs/
+coverage/

@@ -1,4 +1,4 @@
-# ts-extract
+# extract-ts
 
 <p align="center">
     <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="code style: prettier"></a>
@@ -9,7 +9,9 @@
     <a href="https://codecov.io/gh/ChristianOezelt/ts-extract">
         <img src="https://codecov.io/gh/ChristianOezelt/ts-extract/branch/master/graph/badge.svg" />
     </a>
-
+    <a href="https://travis-ci.org/ChristianOezelt/ts-extract.svg?branch=master">
+        <img src="https://travis-ci.org/ChristianOezelt/ts-extract.svg?branch=master" />
+    </a>
 </p>
 
 This library is a type safe alternative to lodash's get.
@@ -18,7 +20,7 @@ This library is a type safe alternative to lodash's get.
 
 <p align="center">
   <a href="#setup">Setup</a>&nbsp;&nbsp;
-  <a href="https://christianoezelt.github.io/ts-extract/">API Documentation</a>&nbsp;&nbsp;
+  <a href="https://christianoezelt.github.io/extract-ts/">API Documentation</a>&nbsp;&nbsp;
   <a href="#local-development">Local Development</a>&nbsp;&nbsp;
 </p>
 
@@ -32,7 +34,7 @@ This library expects you to be using typescript 2.8.0, or above.
 Install via npm (or yarn)
 
 ```bash
-npm i ts-extract --save
+npm i extract-ts --save
 ```
 
 After that you may use it:
