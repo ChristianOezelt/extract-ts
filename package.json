@@ -12,7 +12,7 @@
     "precommit": "pretty-quick --staged && npm run verify && npm run precommit:documentation",
     "precommit:documentation": "npm run generate:documentation && git add docs",
     "generate:documentation": "typedoc --out docs --target ES5 --hideGenerator --excludeExternals --module commonjs --theme minimal --readme none --exclude \"**/*+(.spec|spec.int|index).ts\" lib",
-    "codecov": "jest --coverage && codecov"
+    "codecov": "codecov"
   },
   "author": "Christian Özelt",
   "license": "MIT",

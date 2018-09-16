@@ -1,0 +1,6 @@
+lib/
+*.yml
+tsconfig.json
+tslint.json.editorconfig
+.gitignore
+docs/

@@ -6,6 +6,10 @@
     <a><img src="https://img.shields.io/badge/typings-included-brightgreen.svg" alt="tested with: jest"></a>
     <a href="https://codeclimate.com/github/ChristianOezelt/ts-extract/maintainability"><img src="https://api.codeclimate.com/v1/badges/7f3456c645cbeed57bd1/maintainability" /></a>
     <a href="https://codeclimate.com/github/ChristianOezelt/ts-extract/test_coverage"><img src="https://api.codeclimate.com/v1/badges/7f3456c645cbeed57bd1/test_coverage" /></a>
+    <a href="https://codecov.io/gh/ChristianOezelt/ts-extract">
+        <img src="https://codecov.io/gh/ChristianOezelt/ts-extract/branch/master/graph/badge.svg" />
+    </a>
+
 </p>
 
 This library is a type safe alternative to lodash's get.
@@ -14,7 +18,7 @@ This library is a type safe alternative to lodash's get.
 
 <p align="center">
   <a href="#setup">Setup</a>&nbsp;&nbsp;
-  <a href="#api-documentation">API Documentation</a>&nbsp;&nbsp;
+  <a href="https://christianoezelt.github.io/ts-extract/">API Documentation</a>&nbsp;&nbsp;
   <a href="#local-development">Local Development</a>&nbsp;&nbsp;
 </p>
 

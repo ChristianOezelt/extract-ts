@@ -13,9 +13,10 @@ script:
   - npm run test:coverage
   - npm run build
 after-script:
-  - npm run report-coverage
+  - npm run codecov
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 deploy:
   provider: npm
-  api_key: $NPM_KEY
-  email: 'christian.oezelt@gmail.com'
+  api_key: "$NPM_KEY"
+  email: "christian.oezelt@gmail.com"
+  skip_cleanup: true
