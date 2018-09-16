@@ -15,13 +15,7 @@ script:
 after-script:
   - npm run report-coverage
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-
-jobs:
-  include:
-    - stage: npm release
-      node_js: stable
-      script: echo "Deploying to npm ..."
-      deploy:
-        provider: npm
-        api_key: $NPM_KEY
-        email: 'christian.oezelt@gmail.com'
+deploy:
+  provider: npm
+  api_key: $NPM_KEY
+  email: 'christian.oezelt@gmail.com'

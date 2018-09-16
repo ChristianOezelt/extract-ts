@@ -12,12 +12,14 @@
     "precommit": "pretty-quick --staged && npm run verify && npm run precommit:documentation",
     "precommit:documentation": "npm run generate:documentation && git add docs",
     "generate:documentation": "typedoc --out docs --target ES5 --hideGenerator --excludeExternals --module commonjs --theme minimal --readme none --exclude \"**/*+(.spec|spec.int|index).ts\" lib",
-    "codecov": "codecov"
+    "codecov": "jest --coverage && codecov"
   },
   "author": "Christian Özelt",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^23.3.2",
+    "co-exec": "^1.0",
+    "codecov": "^1.0.1",
     "husky": "^0.14.3",
     "jest": "^23.6.0",
     "prettier": "^1.14.2",
@@ -26,9 +28,7 @@
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
     "typedoc": "^0.12.0",
-    "typescript": "^3.0.3",
-    "co-exec": "^1.0",
-    "codecov": "^1.0.1"
+    "typescript": "^3.0.3"
   },
   "peerDependencies": {
     "typescript": ">= 2.8.0"

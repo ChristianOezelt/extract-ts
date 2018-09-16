@@ -4,6 +4,8 @@
     <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="code style: prettier"></a>
     <a href="https://github.com/facebook/jest"><img src="https://img.shields.io/badge/tested_with-jest-99424f.svg" alt="tested with: jest"></a>
     <a><img src="https://img.shields.io/badge/typings-included-brightgreen.svg" alt="tested with: jest"></a>
+    <a href="https://codeclimate.com/github/ChristianOezelt/ts-extract/maintainability"><img src="https://api.codeclimate.com/v1/badges/7f3456c645cbeed57bd1/maintainability" /></a>
+    <a href="https://codeclimate.com/github/ChristianOezelt/ts-extract/test_coverage"><img src="https://api.codeclimate.com/v1/badges/7f3456c645cbeed57bd1/test_coverage" /></a>
 </p>
 
 This library is a type safe alternative to lodash's get.
